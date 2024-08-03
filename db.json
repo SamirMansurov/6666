@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "11a4",
+      "email": "ganievs.111@gmail.com",
+      "first-name": "Samir",
+      "last-name": "Ganiyev",
+      "password": "ssss"
+    },
+    {
+      "id": "fcb9",
+      "email": "dsarifkulo021@gmail.com",
+      "first-name": "Daler",
+      "last-name": "Sharifkulov",
+      "password": "1234Daler"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "93558e7a-0e88-4cf2-8210-aed10b601168",
+      "createdAt": "2024-08-01T05:29:59.603Z",
+      "updatedAt": "2024-08-01T05:29:59.603Z",
+      "userId": "11a4",
+      "wallet-name": "Relax",
+      "wallet-balance": "1000",
+      "currency": "USD"
+    },
+    {
+      "id": "0fa8a3ea-4a6f-463e-84fd-26d8c787cade",
+      "createdAt": "2024-08-01T05:34:16.268Z",
+      "updatedAt": "2024-08-01T05:34:16.268Z",
+      "userId": "11a4",
+      "wallet-name": "Business",
+      "wallet-balance": "1000",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "d31d9287-56ab-4d8e-a704-6173b2aafe4a",
+      "createdAt": "2024-08-01T05:45:12.332Z",
+      "updatedAt": "2024-08-01T05:45:12.332Z",
+      "walletId": "0fa8a3ea-4a6f-463e-84fd-26d8c787cade",
+      "wallet": "Business",
+      "total": "1000",
+      "cat": "business"
+    },
+    {
+      "id": "8e72b167-a110-4371-a7d3-0219f9e31ebf",
+      "createdAt": "2024-08-01T09:25:48.487Z",
+      "updatedAt": "2024-08-01T09:25:48.487Z",
+      "walletId": "11a4",
+      "wallet": "Relax",
+      "total": "100",
+      "cat": "humanity"
+    },
+    {
+      "id": "a1c0dc8a-6ceb-46f0-8a26-871d513eb1bc",
+      "createdAt": "2024-08-01T09:38:54.224Z",
+      "updatedAt": "2024-08-01T09:38:54.224Z",
+      "walletId": "11a4",
+      "wallet": "Relax",
+      "total": "100",
+      "cat": "cat"
+    }
+  ]
+}

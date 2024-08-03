@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добовление кошелюка</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="/scss/style.scss">
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="wallet-form" name="wallet-form" >
+            <h2>Добовление кошелька</h2>
+            <div class="form-group">
+                <label for="wallet-name">Имя</label>
+                <input type="text" id="wallet-name" name="wallet-name" required>
+            </div>
+            <div class="form-group">
+                <label for="wallet-balance">Баланс</label>
+                <input type="number" id="wallet-balance" name="wallet-balance" required>
+            </div>
+            <div class="form-group">
+                <select name="currency" id="currency">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="SUM">SUM - Uzbekistani Som</option>
+                    <option value="SUM">RUB - Russia Rub</option>
+                </select>
+            </div>
+            <button type="submit">Добавить</button>
+        </form>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
